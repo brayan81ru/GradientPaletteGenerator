@@ -7,7 +7,6 @@ import { TemplateSelector } from './components/TemplateSelector';
 import { ExportPanel } from './components/ExportPanel';
 import { Toolbar } from './components/Toolbar';
 
-
 function App() {
   const [gradients, setGradients] = useState<GradientColor[]>([]);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
