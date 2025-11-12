@@ -18,8 +18,6 @@ export const SaveLoadPanel = ({
   palettes,
   loading,
   currentPaletteName,
-  currentGradients,
-  currentGridCols,
   onSave,
   onLoad,
   onDelete,

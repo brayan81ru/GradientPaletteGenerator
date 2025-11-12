@@ -22,4 +22,5 @@ export interface PaletteTemplate {
   grid_size: number;
   grid_cols: number;
   gradient_data: GradientColor[];
+  gap_size?: number;
 }
